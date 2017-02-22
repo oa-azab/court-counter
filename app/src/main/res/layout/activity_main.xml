@@ -31,18 +31,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="+3 points" />
+        android:text="+3 points"
+        android:onClick="add3PointTeamA"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="+2 points" />
+        android:text="+2 points"
+        android:onClick="add2PointTeamA"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Free Throw" />
+        android:text="Free Throw"
+        android:onClick="add1PointTeamA"/>
 
 </LinearLayout>
